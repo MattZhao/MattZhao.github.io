@@ -342,12 +342,11 @@ body {
   margin: 0 0 0 -2px;
   text-align: left;
   font-size: 0.5em;
-  padding: 0 0 50px 0;
   border-left: solid #2e405b 2px;
   transition: padding 0.8s ease 0s, background 0.8s ease 0s; }
 
 .site-title:hover {
-  padding: 15px 0 35px 0;
+  padding: 5px 0 5px 0;
   color: #ffffff !important;
   background: #2e405b !important;
   border-left: solid #2e405b 2px; }
@@ -359,7 +358,6 @@ body {
   text-align: left;
   font-weight: bolder;
   margin-top: 0;
-  margin-left: 10px;
   margin-right: 0;
   font-family: "HiraMinProN-W6", "Source Han Serif CN", "Source Han Serif SC", "Source Han Serif TC", "Source Han Sans SC", "Source Han Sans TC", "PingFang SC", "PingFang HK", "PingFang TC", "Source Sans Pro", sans-serif;
   /*font-family: "PT Serif", "Source Han Serif CN", "Source Han Serif SC", "Source Han Serif TC", "HiraMinProN-W6", "HiraMinProN-W3", serif;*/ }
@@ -372,8 +370,11 @@ body {
   font-size: 30px;
   padding-top: 1px; }
 
-.site-title :first-child {
-  margin-right: 10px; }
+#profile-picture {
+  transform: scale(0.9);
+  padding: 0px 20px 0px 0px;
+  margin-left: 0px;
+}
 
 .site-title-links {
   font-weight: bold;
